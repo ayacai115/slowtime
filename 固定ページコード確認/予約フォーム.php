@@ -4,7 +4,8 @@
     <td colspan="2"><h2 class="underlined_header">Slow Time ネット予約</h2></td>
   </tr>
   <tr>
-    <td colspan="2"><span class="red">*</span>は必須項目です<br>お問い合わせは0120-78-2340まで<br><br>【営業時間】10:00〜18:30(最終受付17:30)　日・月 定休<br>※4月1日より営業時間と定休日が変更となりました。</td>
+    <td colspan="2"><span class="red">*</span>は必須項目です<br>お問い合わせは0120-78-2340まで<br><br>【営業時間】<br>10:00～18:30(最終受付17:30)<br>※ 日・月曜定休日<br>
+    <span style="color: red;">※ 2018年4月1日(日)から営業時間が変更になりました。</span><p></td>
   </tr>
 
 
@@ -54,8 +55,6 @@
           <span class="wpcf7-form-control-wrap booking-time">
             <select class="form-control wpcf7-form-control wpcf7-select wpcf7-validates-as-required" name="booking-time" aria-required="true" aria-invalid="false">
               <option value="">---</option>
-              <option value="9:00">9:00</option>
-              <option value="9:30">9:30</option>
               <option value="10:00">10:00</option>
               <option value="10:30">10:30</option>
               <option value="11:00">11:00</option>
