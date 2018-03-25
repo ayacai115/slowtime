@@ -4,8 +4,12 @@
     <td colspan="2"><h2 class="underlined_header">Slow Time ネット予約</h2></td>
   </tr>
   <tr>
-    <td colspan="2">お問い合わせは0120-78-2340まで<br>【受付時間】平日 9:00-17:30、日曜 9:00-14:00 木曜定休日<br><span class="red">*</span>は必須項目です</td>
+    <td colspan="2"><span class="red">*</span>は必須項目です<br>お問い合わせは0120-78-2340まで<br><br>【営業時間】10:00〜18:30(最終受付17:30)　日・月 定休<br>※4月1日より営業時間と定休日が変更となりました。</td>
   </tr>
+
+
+
+
   <tr>
     <label>
       <th><span class="red">*</span>お名前</th>
@@ -38,7 +42,7 @@
   <tr>
     <label>
       <th  valign="top" class="valign-top-padding"><span class="red">*</span>ご希望日<p></p><p></p><p></p></th>
-      <td>[date* booking-date date-format:mm/dd/yy class:input-form placeholder"クリックして日付を選択"]<br><span class="red"><strong>当日のご予約はお電話でお願いいたします</strong></span><br>※木曜日は定休日です</td>
+      <td>[date* booking-date date-format:mm/dd/yy class:input-form placeholder"クリックして日付を選択"]<br><span class="red"><strong>当日のご予約はお電話でお願いいたします</strong></span><br>※日・月曜日は定休日です</td>
     </label>
   </tr>
 
@@ -70,7 +74,7 @@
               <option value="17:30">17:30</option>
             </select>
           </span>
-          <p><span class="red">閉店時間は平日・土は18:30、日曜15:00です<br>ご希望メニューの内容によっては、受付できない場合がございます</span></p>
+          <p><span class="red">閉店時間は18:30です。<br>ご希望メニューの内容によっては、受付できない場合がございます。</span></p>
         </td>
       </label>
     </div>
@@ -176,7 +180,7 @@
   </tr>
 
   <tr>
-    <td colspan="2"><div class="submit-btn">[submit "予約する"]</div><div class="submit-btn-notice"><span class="red">※返信は営業時間内(平日・土 9:00-18:30、日曜 9:00-15:00)に行っております。</span></div></td>
+    <td colspan="2"><div class="submit-btn">[submit "予約する"]</div><div class="submit-btn-notice"><span class="red">※返信は営業時間内(10:00-18:30。日月は定休日)に行っております。</span></div></td>
   </tr>
   </table>
 </div>
