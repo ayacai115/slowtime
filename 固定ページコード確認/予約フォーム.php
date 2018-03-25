@@ -4,7 +4,7 @@
     <td colspan="2"><h2 class="underlined_header">Slow Time ネット予約</h2></td>
   </tr>
   <tr>
-    <td colspan="2">お問い合わせは0120-78-2340まで<br>【受付時間】平日 9:00-17:30、日曜 9:00-14:00 木曜定休日<br><span class="red">*</span>は必須項目です</td>
+    <td colspan="2">お問い合わせは0120-78-2340まで<br>【受付時間】平日・土曜 10:00-17:30 日・月曜定休日<br><span class="red">*</span>は必須項目です</td>
   </tr>
   <tr>
     <label>
@@ -176,7 +176,7 @@
   </tr>
 
   <tr>
-    <td colspan="2"><div class="submit-btn">[submit "予約する"]</div><div class="submit-btn-notice"><span class="red">※返信は営業時間内(平日・土 9:00-18:30、日曜 9:00-15:00)に行っております。</span></div></td>
+    <td colspan="2"><div class="submit-btn">[submit "予約する"]</div><div class="submit-btn-notice"><span class="red">※返信は営業時間内(平日・土 10:00-18:30)に行っております。</span></div></td>
   </tr>
   </table>
 </div>
