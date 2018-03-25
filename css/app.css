@@ -1,0 +1,659 @@
+/* GLOBAL */
+body {
+  color: #000000;
+  /*background-image: url(../img/dairiseki.png);*/
+  font-family: "Sawarabi Gothic";
+}
+
+
+.navbar-header img {
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.thumbnail {
+  background: none;
+  text-align: center;
+  margin-top: 15px;
+  border: none;
+}
+
+.thumbnail img {
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.jumbotron-sub {
+  background: url("../img/sub_top.jpg");
+  background-position: center no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+.jumbotron-sub h3 {
+  color: white;
+  padding-left: 20px;
+  margin-top: -2px;
+
+}
+.breadcrumb {
+  margin-top: -30px;
+}
+
+.underlined_header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* ==== ホーム ==== */
+.navbar {
+  border: none;
+}
+
+.jumbotron-front {
+  background: url("../img/top.jpg");
+  background-position: center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.jumbotron-front h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 55px;
+  padding-bottom: 60px;
+  color: white;
+  font: bold;
+  letter-spacing: 4px;
+}
+
+.thumbnail-wrapper h2 {
+  text-align: center;
+}
+
+.thumbnail img {
+  height: 273px;
+}
+
+
+.top-wrapper {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.top-wrapper img {
+  width: 100%;
+}
+.top-wrapper h2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+
+.recommend-wrapper {
+  background-color: ;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.recommend-wrapper h3 {
+  margin-bottom: 50px;
+}
+
+.recommend-wrapper h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.recommend-wrapper p {
+  margin-bottom: 20px;
+}
+
+.contact-wrapper {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-wrapper-title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-wrapper-tel {
+  margin-bottom: 20px;
+}
+
+.campaign-image-front {
+  margin-bottom: 50px;
+}
+
+.campaign-contact {
+  border: 3px solid #fc8149;
+  margin-top: 50px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.campaign-contact p {
+  font-size: 15px;
+}
+
+.campaign-contact-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.access-wrapper h3 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.google-map {
+  width: 100%;
+}
+
+
+
+.footer-left {
+  margin-left: 20px;
+  float: left;
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
+.footer-right li {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+}
+
+.footer-sns {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.footer-sns h3 {
+  margin-bottom: 30px;
+}
+
+#facebook {
+  width: 400px;
+}
+
+
+/* ==== ブログ ==== */
+.blog-post {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 60px 40px;
+  padding: 0px 20px 30px;
+}
+
+.blog-post p {
+  font-size: 16px;
+}
+
+.blog-post img {
+  width: 100%;
+}
+
+.blog-post p img {
+  width: 100%;
+}
+
+.blog-post-title a{
+  color: #474747;
+}
+.blog-sidebar {
+  margin-top: 50px;
+}
+
+.sidebar-module {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px 25px 0px;
+  padding: 15px;
+}
+
+.sidebar-module p {
+  font-size: 16px;
+}
+
+.font-size-16px {
+  font-size: 16px;
+}
+
+
+/* ===== ブログ個別ページ ==== */
+.blog-post-meta {
+  line-height: 2em;
+}
+
+
+/* ==== コース・料金 ==== */
+.course-border {
+  border-bottom: 1px solid #606060;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.course-left img {
+  width: 80%;
+  margin-left: 30px;
+}
+.course-right a {
+  width: 180px;
+  height: 40px;
+  margin-left: 180px;
+  padding-top: 8px;
+}
+
+.course-right h4 {
+  margin-bottom: 20px;
+}
+
+.course-right h5 {
+  margin-bottom: -5px;
+}
+
+.course-right p{
+  margin: 25px auto;
+}
+
+.price-wrapper p {
+  font-size: 12px;
+}
+
+.price-left-1 h5 {
+  padding-top: 20px;
+}
+.price-right-1 p {
+  padding-top: 30px;
+}
+
+/* お客様の声 */
+.customer-wrapper-left {
+  margin-bottom: 40px;
+}
+.customer-wrapper-right {
+  margin-bottom: 40px;
+}
+
+
+
+.face-img {
+  float: left;
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 60px;
+}
+
+.face-img img {
+  padding-top: 15px;
+  padding-left: 18px;
+  height: 85%;
+}
+.nurse-img {
+  float: left;
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 60px;
+}
+.nurse-img img {
+  height: 95%;
+  padding-top: 15px;
+  padding-left: 22px;
+}
+
+.review-title {
+  font-size: 20px;
+}
+
+.review-body {
+  font-size: 16px;
+}
+
+/* ==== 薬草酵素温浴とは？ ==== */
+.yakuso-wrapper {
+  margin-bottom: 40px;
+}
+.yakuso-img {
+  height: 150px;
+}
+
+.yakuso-image-1 {
+  margin-bottom: 20px;
+}
+
+.yakuso-image-1 img {
+  border-radius: 5px;
+  margin-top: 15px;
+
+}
+
+.yakuso-image-2 img {
+  border-radius: 5px;
+  margin-top: 15px;
+
+}
+
+/* ==== 会社概要 ====*/
+.company-wrapper h3 {
+  text-align: center;
+}
+
+table {
+  margin: 30px auto;
+}
+table, td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 4px;
+}
+
+/* ==== 初めての方へ ==== */
+.first-time {
+  margin: 40px auto 20px;
+}
+
+.what-you-need-wrapper h3 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.what-you-need {
+  margin: 30px auto 20px;
+}
+
+.what-included h3{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.flow-wrapper h3 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.what-included-sentence {
+  margin: 20px auto;
+}
+
+.what-included-stuff {
+  margin: 20px auto;
+}
+
+.flow-wrapper {
+  margin-top: 30px;
+}
+
+.flow-wrapper h3 {
+  margin-bottom: 30px;
+}
+
+.flow {
+  margin-top: 40px;
+}
+
+/* ==== プライバシーポリシー ==== */
+.privacy-wrapper p {
+  padding: 20px;
+}
+.privacy-wrapper h3{
+  text-align: center;
+}
+
+
+/* ==== ボタン ==== */
+
+/* 共通部分 */
+.course-btn, .booking-btn {
+  width: 380px;
+  margin: 20px auto;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #80a060;
+  color: white;
+}
+
+.course-btn:hover, .booking-btn:hover {
+  background-color: #608040;
+  transition: 0.3s;
+}
+
+.course-btn a, .booking-btn a {
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-decoration:none;
+}
+
+
+
+
+
+/* ヘッダー色 */
+.navbar-default {
+  background-color: #608040;
+  border-color: #406020;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #809a80;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #809a80;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #608040;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #809a80;
+  background-color: #406020;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #406020;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #809a80;
+  background-color: #406020;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #809a80;
+  background-color: #406020;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #809a80;
+  background-color: #406020;
+}
+.navbar-default .navbar-toggle {
+  border-color: #406020;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #406020;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #809a80;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #809a80;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #809a80;
+    background-color: #406020;
+  }
+}
+
+
+/* 予約フォーム */
+.booking-top {
+  margin-left: 50px;
+}
+.width-100 {
+  width: 100%;
+
+}
+.valign-top-padding {
+  padding-top: 30px;
+}
+.red {
+  color: red;
+}
+.booking-form {
+  margin-top: -50px;
+}
+.booking-form table {
+  border-style: none;
+}
+
+.booking-form th{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: none;
+  width: 200px
+}
+.booking-form td{
+  padding: 23px 15px 20px;
+  border-style: none;
+}
+
+.input-form {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 80%;
+}
+
+.course-group {
+  padding: 10px 0px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0 33%;
+}
+
+.submit-btn input {
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px 0 10px;
+  color: #fff;
+  background-color: #49a9d4;
+  border-radius: 4px;
+  border: none;
+}
+.submit-btn input:hover {
+  background-color: #197ba8;
+  transition: 0.3s;
+}
+
+.submit-btn-notice {
+  text-align: center;
+}
+
+.wpcf7-mail-sent-ok {
+  float: left;
+  width: 100%;
+}
+
+
+
+/* メディアクエリ */
+
+@media only screen and (max-width:480px){
+  .booking-form th,
+  .booking-form td{
+  width: 100%;
+  display: block;
+  border: none;
+  }
+  .booking-form th{
+    padding: 20px 15px 5px;
+  }
+  .booking-form td{
+    padding: 0px 15px 10px;
+  }
+  .submit-btn {
+    padding: 0 10%;
+  }
+  .campaign-contact {
+    margin-left: 1px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .jumbotron-sub h3 {
+    color: white;
+    padding-left: 10px;
+    padding-top: 23px;
+  }
+  #facebook {
+    width: 320px;
+  }
+    .blog-post {
+    margin: 30px 5px;
+    padding: 0px 10px 15px;
+  }
+}
