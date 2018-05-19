@@ -48,7 +48,7 @@
 <div class="flow-wrapper container">
   <h3 class="underlined_header col-sm-12 col-md-offset-2 col-md-8">ご利用の流れ</h3>
   <div style="text-align: center;">
-    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_flow-640x1024.png" alt="" width="400" height="642" class="alignnone size-large wp-image-262" />
+    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_flow-640x1024.png" alt="" width="500" class="alignnone size-large wp-image-262" />
   </div>
 
   <div class="flow row">
