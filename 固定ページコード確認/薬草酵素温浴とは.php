@@ -16,8 +16,8 @@
     </div>
   </div>
   <div style="text-align: center;">
-    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_effects_1-1024x366.png" alt="" width="526" height="188" class="alignnone size-large wp-image-264" style="margin: 60px 0px 45px;" />
-    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_effects_2-1024x366.png" alt="" width="526" height="188" class="alignnone size-large wp-image-265" style="margin-bottom: 40px;"/>
+    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_effects_1-1024x366.png" alt="" width="650" class="alignnone size-large wp-image-264" style="margin: 60px 0px 45px;" />
+    <img src="http://hida-slowtime.com/wp-content/uploads/2017/06/koso_effects_2-1024x366.png" alt="" width="650" class="alignnone size-large wp-image-265" style="margin-bottom: 40px;"/>
   </div>
 </div>
 
