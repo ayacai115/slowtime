@@ -32,12 +32,12 @@ li {
   background: url("../img/sub_top.jpg");
   background-position: center no-repeat;
   background-size: cover;
-  height: 100px;
+  height: 130px;
 }
 .jumbotron-sub h3 {
   color: white;
   padding-left: 20px;
-  margin-top: -2px;
+  padding-top: 11px;
 
 }
 .breadcrumb {
